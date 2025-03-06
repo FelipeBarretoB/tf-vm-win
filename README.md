@@ -32,6 +32,8 @@ We then create the storage account for the storage of the vm
 
 We then create the virtual machine, this is the vm that we're going to use, we give a os disk, an image and admin ssh credentials, we also give it boot diagnostics, in case something goes wrong
 
+We also add a admin username and password, we're going to use this to access the vm
+
 ## variables.tf
 
 here we have the variables that we're going to use in the main file, like location and username
